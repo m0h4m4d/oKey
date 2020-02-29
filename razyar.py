@@ -1,6 +1,8 @@
 from flask import Flask, render_template
 import os
-
+print '\n'
+print '[+] Use this link for start server:	http://okey.ispace:5000'
+print '\n'
 PEOPLE_FOLDER = os.path.join('static', 'people_photo')
 
 app = Flask(__name__)
